@@ -1,0 +1,21 @@
+{
+  "name": "ᴍᴜᴢᴀᴍɪʟ x ʀᴜʙᴀʙ",
+  "description": "ᴍᴜᴢᴀᴍɪʟ x ʀᴜʙᴀʙ WhatsApp bot made by ᴍᴜᴢᴀᴍɪʟ x ʀᴜʙᴀʙ official",
+  "logo": "https://n.uguu.se/BlGoHUJU.jpg",
+  "keywords": ["bot","ᴍᴜᴢᴀᴍɪʟ x ʀᴜʙᴀʙ","Muzamil"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the ᴍᴜᴢᴀᴍɪʟ x ʀᴜʙᴀʙ session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
